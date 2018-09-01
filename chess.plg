@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: chess - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "E:\WINDOWS\TEMP\RSP4054.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/chess.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\chess\chessDlg.cpp"
+]
+Creating command line "cl.exe @E:\WINDOWS\TEMP\RSP4054.TMP" 
+Creating temporary file "E:\WINDOWS\TEMP\RSP4055.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/chess.pdb" /machine:I386 /out:"Release/chess.exe" 
+.\Release\Alphabeta_HH.obj
+.\Release\AlphaBetaAndTT.obj
+.\Release\AlphaBetaEngine.obj
+.\Release\AspirationSearch.obj
+.\Release\chess.obj
+.\Release\chessDlg.obj
+.\Release\Eveluation.obj
+.\Release\FAlphaBetaEngine.obj
+.\Release\HistoryHeuristic.obj
+.\Release\IDAlphabeta.obj
+.\Release\MoveGenerator.obj
+.\Release\MTD_f.obj
+.\Release\NegamaxEngine.obj
+.\Release\NegaScout_TT_HH.obj
+.\Release\NewGame.obj
+.\Release\PVS_Engine.obj
+.\Release\SearchEngine.obj
+.\Release\StdAfx.obj
+.\Release\TranspositionTable.obj
+.\Release\chess.res
+]
+Creating command line "link.exe @E:\WINDOWS\TEMP\RSP4055.TMP"
+<h3>Output Window</h3>
+Compiling...
+chessDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+chess.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
